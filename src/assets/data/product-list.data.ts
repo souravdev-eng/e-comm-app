@@ -1,0 +1,58 @@
+import {CardProps} from '../../components/cards';
+
+export const PRODUCT_LIST = [
+  {
+    id: '1',
+    title: 'Nike Air Max 270 React ENG',
+    productImage: require('../img/product-img/product.png'),
+    offerPrice: 249,
+    price: 599,
+    rating: 4.5,
+    discount: '24%',
+  },
+  {
+    id: '2',
+    title: 'Nike Air Max 270 React ENG',
+    productImage: require('../img/product-img/product1.png'),
+    offerPrice: 455,
+    price: 629,
+    rating: 4.1,
+    discount: '49%',
+  },
+  {
+    id: '3',
+    title: 'Nike Air Max 270 React ENG',
+    productImage: require('../img/product-img/product2.png'),
+    offerPrice: 349,
+    price: 999,
+    rating: 3.5,
+    discount: '24%',
+  },
+  {
+    id: '4',
+    title: 'Nike Air Max 270 React ENG',
+    productImage: require('../img/product-img/product3.png'),
+    offerPrice: 249,
+    price: 599,
+    rating: 4.5,
+    discount: '2%',
+  },
+  {
+    id: '5',
+    title: 'Nike Air Max 270 React ENG',
+    productImage: require('../img/product-img/product4.png'),
+    offerPrice: 249,
+    price: 599,
+    rating: 4.5,
+    discount: '13%',
+  },
+  {
+    id: '6',
+    title: 'Nike Air Max 270 React ENG',
+    productImage: require('../img/product-img/product5.png'),
+    offerPrice: 429,
+    price: 852,
+    rating: 4.8,
+    discount: '17%',
+  },
+] as unknown as CardProps[];
